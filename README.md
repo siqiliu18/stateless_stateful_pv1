@@ -35,4 +35,8 @@ Events:
 ```
 #### Follow https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/ with my own change
 - mountPath and echo output path need to be the same
-- another source: https://kubernetes.io/docs/concepts/storage/persistent-volumes/ 
+- another source: https://kubernetes.io/docs/concepts/storage/persistent-volumes/
+
+#### Other useful links
+- https://loft.sh/blog/kubernetes-statefulset-examples-and-best-practices/
+- https://spacelift.io/blog/kubernetes-statefulset
