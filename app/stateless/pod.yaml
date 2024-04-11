@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: stateless-app
+spec:
+  containers:
+    - name: stateless-app
+      image: centos
+      imagePullPolicy: IfNotPresent
+      command: ["/bin/sh"]
+      args: ["-c", "while true; do echo $(date -u) >> /out.txt; sleep 5; done"]
