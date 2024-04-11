@@ -1,4 +1,14 @@
 ### Sources:
+#### kind: Pod image pull failure
+- https://stackoverflow.com/questions/65806330/toomanyrequests-you-have-reached-your-pull-rate-limit-you-may-increase-the-lim
+- **basically have to do docker login**
+```
+$ sudo docker login --username=yourUsername
+Password:
+WARNING: login credentials saved in C:\Users\sven\.docker\config.json
+Login Succeeded
+```
+
 #### Youtube: https://www.youtube.com/watch?v=tivL8sNbPik
 - After launching all yaml files, got this, **need to look into the ebs.csi.aws.com provisioner**
 ```
